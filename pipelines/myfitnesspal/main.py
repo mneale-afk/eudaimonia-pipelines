@@ -23,7 +23,7 @@ from datetime import date, timedelta
 
 from config import SOURCE_MFP, LOOKBACK_DAYS, PROJECT_ID
 from firestore_client import FirestoreWriter
-from secrets import get_secret
+from gcp_secrets import get_secret
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

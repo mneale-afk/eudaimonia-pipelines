@@ -20,7 +20,7 @@ import requests
 
 from config import SOURCE_WITHINGS, PROJECT_ID, LOOKBACK_DAYS
 from firestore_client import FirestoreWriter
-from secrets import get_secret
+from gcp_secrets import get_secret
 import token_store
 
 logging.basicConfig(level=logging.INFO)

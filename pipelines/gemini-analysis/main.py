@@ -20,7 +20,7 @@ import google.generativeai as genai
 
 from config import FIRESTORE_ROOT, PROJECT_ID, SOURCE_GEMINI
 from firestore_client import FirestoreWriter
-from secrets import get_secret
+from gcp_secrets import get_secret
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

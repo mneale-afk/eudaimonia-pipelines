@@ -28,7 +28,7 @@ from pathlib import Path
 from garminconnect import Garmin
 
 from config import PROJECT_ID, SOURCE_GARMIN
-from secrets import get_secret
+from gcp_secrets import get_secret
 import token_store
 
 logger = logging.getLogger(__name__)
